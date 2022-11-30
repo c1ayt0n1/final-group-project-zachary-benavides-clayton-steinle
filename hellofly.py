@@ -40,12 +40,15 @@ def index():
     }
     parameters = {'location': 'San Marcos, TX',
                   'radius': 50,
-                  'limit': 3}
+                  'limit': 3,
+                  'categories':'restaurants, arts, nightlife'}
 
     response = requests.get(
         YELP_API_REQUEST, headers=headers, params=parameters
     )
 
     json_data = response.json()
+
+    print(json_data.keys())
 
     return render_template('hello.html')
