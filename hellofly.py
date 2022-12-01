@@ -49,6 +49,4 @@ def index():
 
     json_data = response.json()
 
-    print(json_data.keys())
-
     return render_template('hello.html')

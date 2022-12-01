@@ -1,6 +1,6 @@
-# fly.toml file generated for billowing-sun-9356 on 2022-11-29T16:37:11-06:00
+# fly.toml file generated for lingering-pine-9636 on 2022-12-01T00:00:47-06:00
 
-app = "billowing-sun-9356"
+app = "lingering-pine-9636"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
